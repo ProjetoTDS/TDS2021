@@ -12,7 +12,7 @@
     font-size:40px;
     padding: 10px;
     text-decoration: none;
-    color:#000;
+    color:rgb(117, 117, 238);
 }
 .logo:hover{
     color: #666;
@@ -43,13 +43,13 @@ nav li a {
 }
 
 nav a:hover{
-    color: #000;
+    color: rgb(117, 117, 238);
 }
 
 .idiomas{
     float: right;
     display: flex;
-    margin-right: 50px;
+    margin-right: 20px;
 
 }
 
@@ -61,5 +61,5 @@ nav a:hover{
 }
 
 .idiomas a:hover{
-    color:rgb(32, 32, 161);
+    color:rgb(117, 117, 238);
 }

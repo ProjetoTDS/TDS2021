@@ -1,5 +1,17 @@
 version: 0.2
 
+env:
+  shell: 
 phases:
+  pre_build:
+    commands:
+      - sh "cat index.html"
   build:
-    sh "echo building..."
+    commands:
+      - sh "echo continuando"
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: build

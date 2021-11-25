@@ -8,7 +8,18 @@
     <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
     <title>Cadastro</title>
 </head>
+<script> 
+function valSenha(){
+     var NovaSenha = document.getElementById('senha').value;
+    var CNovaSenha = document.getElementById('senha2').value;
 
+    if(NovaSenha != CNovaSenha){
+        alert("Senhas diferentes\n Digite senhas iguais");
+    } else{
+        document.FormSenha.submit();
+    }
+}
+</script>
 <body>
     <div class="conteudo ">
         <div class="titulo"> Cadastro </div>
@@ -30,17 +41,17 @@
                     <span class="detalhes ">E-mail</span>
                     <input type="email" placeholder="Digite seu e-mail " required>
                 </div>
-                <div class="entrada">
+                <div id="senha" class="entrada">
                     <span class="detalhes">Senha</span>
                     <input type="password" placeholder="Digite sua senha" required>
                 </div>
-                <div class="entrada">
+                <div id="senha2" class="entrada">
                     <span class="detalhes">Confirmar Senha</span>
                     <input type="password" placeholder="Confirme sua senha" required>
                 </div>
             </div>
             <div class="btn">
-                <input type="submit" value="Cadastrar">
+                <input type="submit" onClick="valSenha()" value="Cadastrar">
             </div>
         </form>
     </div>

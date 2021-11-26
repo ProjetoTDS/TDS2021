@@ -25,7 +25,7 @@
     var NovoEmail = document.getElementById('email1').value;
     var CNovoEmail = document.getElementById('email2').value;
 
-    if(NovoEmail != CNovoEmail){
+    if((context.NovoEmail.value) !== (context.CNovoEmail.value)){
         alert("emails diferentes\n Digite emails iguais");
     } else{
         document.FormEmail.submit();

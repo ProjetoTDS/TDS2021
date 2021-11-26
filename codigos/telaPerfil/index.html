@@ -9,6 +9,31 @@
     <title>Atualizar Perfil</title>
 </head>
 
+<script>
+  function valSenha(){
+    var NovaSenha = document.getElementById('senha1').value;
+    var CNovaSenha = document.getElementById('senha2').value;
+
+    if(NovaSenha != CNovaSenha){
+        alert("Senhas diferentes\n Digite senhas iguais");
+    } else{
+        document.FormSenha.submit();
+    }
+}
+
+  function valemail(){
+    var NovoEmail = document.getElementById('email1').value;
+    var CNovoEmail = document.getElementById('email2').value;
+
+    if(NovoEmail != CNovoEmail){
+        alert("emails diferentes\n Digite emails iguais");
+    } else{
+        document.FormSenha.submit();
+    }
+}
+
+</script>
+
 <body>
     <div class="conteudo">
         <div class="titulo"> Atualizar Dados </div>

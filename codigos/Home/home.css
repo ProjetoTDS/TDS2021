@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin:0;
+
+}
+
+
+.container{
+    max-width:1920;
+    width:100%;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width:100%;
+}
+
+.nav-container .btn-menumobile{
+    display: none;
+}
+
+nav{
+    position:fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    margin-top:25px;
+
+}
+
+.nav-container ul{
+   float: right;
+   height: 100px;
+   line-height: 100px;
+   margin: 0;
+}
+
+.nav-container li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    margin-right: 70px;
+    font-size:18px;
+}
+
+.nav-container li a{
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+
+.nav-container li a:hover{
+    color: rgb(144, 17, 228);
+}
+
+a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.main{
+    margin-top: 190px;
+    display: grid;
+    place-items: center;
+}
+
+.main a{
+    background: rgb(144, 17, 228);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+.main .cadastro{
+    background-color: white;
+    color:rgb(144, 17, 228);
+    font-size: 18px;
+}
+
+.main h1{
+    font-size: 64px;
+    color:rgb(144, 17, 228);
+}
+
+
+footer{
+    margin-top: 250px;
+    display: flex;
+    background: rgb(144, 17, 228);
+    padding: 10px;
+    height: 320px;
+}
+
+footer div{
+    padding: 55px;
+}
+
+h4{
+    font-size:20px;
+    color: white;
+}
+
+footer p{
+    color: rgb(0, 0, 0);
+}
+
+footer a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.explore{
+    margin-left: 100px;
+}
+.explore a{
+    font-size: 17px;
+}

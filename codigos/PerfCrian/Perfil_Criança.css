@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin:0;
+
+}
+
+
+.container{
+    max-width:1920;
+    width:100%;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width:100%;
+}
+
+.nav-container .btn-menumobile{
+    display: none;
+}
+
+nav{
+    position:fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    margin-top:25px;
+
+}
+
+.nav-container ul{
+   float: right;
+   height: 100px;
+   line-height: 100px;
+   margin: 0;
+}
+
+.nav-container li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    margin-right: 70px;
+    font-size:18px;
+}
+
+.nav-container li a{
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+
+.nav-container li a:hover{
+    color: rgb(144, 17, 228);
+}
+
+a{
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.links{
+    margin-top: 140px;
+    margin-left: 110px;
+    
+}
+
+.responsavel{
+    background:rgb(255, 255, 255);
+    color: rgb(144, 17, 228);
+    padding: 8px;
+    font-size: 19px;
+}
+
+.crianças{
+    background: rgb(144, 17, 228);
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+/*--------------------------- Cards ---------------------*/
+
+.cards{
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+
+  .artigos{
+      display: flex;
+  }
+  
+  .col-sm-4{
+     padding:10px;
+     margin: auto;      
+  }
+  
+  .col-sm-4:hover{
+      padding: 2px;
+      transition: 0.5s;
+  }
+  
+  .card-title{
+      font-size: 18px;
+      text-align: center;
+  }
+  
+  .card-text{
+      font-size: 15px;
+      text-align: center;
+  }
+  
+  .ler{
+      background: rgb(144, 17, 228);
+      color: #fff;
+      border-radius: 9px 9px;
+      padding: 10px;
+      font-size: 12px;
+      display: grid;
+      place-items: center; 
+      font-size: 14.5px;
+  
+  }
+  
+  .ler:hover{
+      margin: 10px;
+      transition: 0.5s;
+  }
+  
+
+  footer{
+    margin-top: 250px;
+    display: flex;
+    background: rgb(144, 17, 228);
+    padding: 10px;
+    height: 320px;
+}
+
+footer div{
+    padding: 55px;
+}
+
+h4{
+    font-size:20px;
+    color: white;
+}
+
+footer p{
+    color: rgb(0, 0, 0);
+}
+
+footer a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.explore{
+    margin-left: 100px;
+}
+.explore a{
+    font-size: 17px;
+}
+
+
+
+
+
+/*======================= Animações ====================*/
+
+*{
+    animation-name: fade;  
+    animation-duration: 1s;
+    }
+    @keyframes fade{
+    from{
+      opacity: 0;
+      transform: scale(1);
+    }
+    to{
+      opacity: 1;
+    }
+    }

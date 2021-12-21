@@ -112,7 +112,7 @@ footer{
 }
 
 footer div{
-    padding: 55px;
+    padding: 45px;
 }
 
 h4{
@@ -205,18 +205,6 @@ footer a{
       margin: 10px;
       transition: 0.5s;
   }
-  
-  footer{
-    margin-top: 180px;
-    display: flex;
-    background: rgb(144, 17, 228);
-    padding: 10px;
-    height: 320px;
-}
-
-footer div{
-    padding: 55px;
-}
 
 h4{
     font-size:20px;

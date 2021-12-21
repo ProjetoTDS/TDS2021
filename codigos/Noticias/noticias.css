@@ -199,6 +199,7 @@ footer a{
       display: grid;
       place-items: center; 
       font-size: 14.5px;
+      text-decoration: none;
   
   }
   

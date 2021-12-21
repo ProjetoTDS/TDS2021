@@ -104,11 +104,11 @@ a{
 }
 
 footer{
-    margin-top: 180px;
+    margin-top: 0px;
     display: flex;
     background: rgb(144, 17, 228);
     padding: 10px;
-    height: 320px;
+    height: 300px;
 }
 
 footer div{

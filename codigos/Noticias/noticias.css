@@ -167,6 +167,7 @@ footer a{
 
   .artigos{
       display: flex;
+      margin-top: 40px;
   }
   
   .col-sm-4{

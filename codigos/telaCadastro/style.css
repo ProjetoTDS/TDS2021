@@ -76,7 +76,7 @@ form .userinf .entrada {
     border-color: #9e768f;
 }
 
-form button {
+form button a {
     cursor: pointer;
     height: 50px;
     width: 100%;
@@ -90,6 +90,6 @@ form button {
     background: #9e768f 74%;
 }
 
-form button:hover {
+form button a:hover {
     background: #9fa4c4 0%;
 }
